@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	<title>FIRST HTML</title>
+</head>
+<body>
+<h1> <em>Money Matters</em> </h1>
+<h2>Tuition</h2>
+<p>Tuition is the biggest cost require by the school for your child to begin their studies here at the 	Aurelias Place Montessori School. Other costs you ay incure are:</p>
+<ol>
+	<li>Feeding</li>
+	<li>Costs of books & stationary</li> 	
+</ol>
+<p>Below you will find a the tuition price list for each class group in the school</p>
+<h3>Tuition List 2021</h3>
+<!--TABLE FOR TUITION-->
+<table>
+	<!--creating the table headings-->
+	<thead>
+		<tr>
+			<th>course</th>
+			<th>tuition(N)</th>
+					</tr>
+	</thead>
+	<!--creating the data i  the table-->
+	<tbody>
+		<tr>
+			<td>Creche(0-2)</td>
+			<td>1,300,000</td>
+		</tr>
+		<tr>
+			<td>Bambinos(2-3)</td>
+			<td>1,300,000</td>
+		</tr>
+		<tr>
+			<td>Munchkins(3-5)</td>
+			<td>1,000,000</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+
+<!--complaint box form-->
+<p>If have any Enquiries on tuition fees, please feel free to fill the form below: </p>
+<form action="process.php" method='GET'>
+<div>
+	<label>firstname</label>
+	<input type="text" name="Firstname">
+</div>
+<div>
+	<label>Last Name</label>
+	<input type="text">
+	</div>
+	
+<div>
+<label> age</label>
+<input type='number'>
+</div>
+<div>
+	<label>gender</label>
+	<select name="gender" id="">
+		<option value="male">male</option>
+		<option value="female">female</option>
+		<option value="other">other</option>
+	</select>
+</div>
+<div>
+	<label>complaint/ enquiry</label>
+	<textarea name="compaint" id="" cols="60" rows="20"></textarea>
+</div>
+	
+	<br>
+	
+	
+	<input type="submit" name='submit' value="submit">
+	</form>
+
+
+</body>
+</html>
